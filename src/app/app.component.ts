@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Invitegamer';
+  title = 'Invite App';
+  name='Max'; 
+  loadingFeature='recipe'
+  onNavigate(feature:string){
+    this.loadingFeature=feature;
+  }
 }
